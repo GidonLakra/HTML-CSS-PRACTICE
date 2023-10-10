@@ -6,8 +6,13 @@
     <title>Document</title>
     <style>
         .amazone{
-            color: rgba(0, 113, 133);
+            color: #007185;
             cursor: pointer;
+            transition: color 0.15s;
+        }
+
+        .amazone:hover{
+            color: rgb(131, 29, 29);
         }
         
         .stock{
@@ -23,6 +28,15 @@
             font-weight: bold;
             margin-left: 10px;
             cursor: pointer;
+            transition: background-color:0.15s, opacity 0.15s;
+        }
+
+        .cart:hover{
+            background-color: rgb(233, 210, 59);
+        }
+
+        .cart:active{
+            opacity: 0.7;
         }
 
         .buy{

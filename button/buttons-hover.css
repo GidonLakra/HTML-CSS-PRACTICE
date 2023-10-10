@@ -71,8 +71,12 @@
     cursor: pointer;
     margin-left: 10px;
     margin-top: 5px;
+transition: background-color 0.15s;
 
+}
 
+.apply-button:hover{
+    background-color: rgb(11, 11, 155);
 }
 
 .save-button{
@@ -84,5 +88,9 @@
     font-weight: bolder;
     font-size: 17px;
     margin-left: 10px;
+    transition: background-color 0.15s;
 }
 
+.save-button:hover{
+    background-color: rgb(144, 251, 244);
+}
